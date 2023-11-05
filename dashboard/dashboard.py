@@ -223,7 +223,7 @@ def create_state_map(state_code, df):
 
 
 with st.sidebar:
-    st.image("dashboard\olist.png")
+    st.image("olist.png")
     mode = st.radio(
         "Choose Dashboard Mode",
         ["Geoanalysis", "All Over Brazil"]
